@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/comp.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav container" id="nav">
+            <h2 class="nav__logo">La competencia</h2>
+            <ul class="nav__links">
+                <li class="nav__item">
+                    <a href="#inicio" class="nav__link">Inicio</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#seccion-cards" class="nav__link">Categoria</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Acerca de</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Contacto</a>
+                </li>
+            </ul>
+
+            <a href="#nav" class="nav__hamburguer">
+                <img src="./asset/img/menu.svg" class="nav__icon">
+            </a>
+
+            <a href="#" class="nav__close">
+                <img src="./asset/img/close.svg" class="nav__icon">
+            </a>
+        </nav>
+        <div class="overlay" id="overlay"></div>
+    </header>
+
+    <main>
+        <div id="inicio" class="cover">
+                
+            <div class="text__information-cover">
+                <h1>¡LA COMPETENCIA!</h1>
+
+                <p>El mercado que tiene todo lo que necesitas<br> ¡Revisa todo el contenido y mira que quieres llevar!</p>
+
+                <div class="buttons__cover">
+                    <input type="button" class="btn__readMore-cover" value="Leer más">
+                </div>
+            </div>
+
+            <div class="media__cover">
+                <div class="img-slider">
+                    <div class="slide active">
+                        <img src="../asset/img/Abarrotes-Tema-2-ok.jpg" alt="">
+                            <div class="info">
+                                <h2>Slide-1</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ratione, laudantium eveniet impedit accusamus ipsum qui rem aliquam vitae. Quidem eveniet ut adipisci reprehenderit excepturi consequatur accusantium possimus optio non!</p>
+                            </div>
+                    </div>
+            
+                    <div class="slide">
+                        <img src="../asset/img/hero.jpg" alt="">
+                            <div class="info">
+                                <h2>slide-2</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse molestiae sed obcaecati velit recusandae at, voluptates iusto doloribus quaerat! In enim cum corporis, esse nesciunt eligendi consectetur aut nostrum? Asperiores.</p>
+                            </div>
+                    </div>
+            
+                    <div class="slide">
+                        <img src="../asset/img/media.jpg" alt="">
+                            <div class="info">
+                                <h2 style="color: black;">Slide-3</h2>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, dolorum ad repudiandae iure totam, natus ea, reiciendis aspernatur harum impedit hic maxime! Aut dolorum facilis reprehenderit vero similique totam enim!</p>
+                            </div>
+                    </div>
+            
+                    <div class="navigation">
+                        <div class="btn active"></div>
+                        <div class="btn"></div>
+                        <div class="btn"></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+    <section id="seccion-cards">
+        <div class="card-container">
+            <div class="card card-1">
+                <div class="card-content">
+                    <h1>Aseo</h1>
+                    <p>Después de leer el contenido dale click al botón de continuar para ir a la evaluación.</p>
+                    <a href="../asset/evalua.php" class="btn">Continuar</a> <br><br><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card card-2">
+                <div class="card-content">
+                    <h1>Abarrotes</h1>
+                    <p>Después de leer el contenido dale click al botón de continuar para ir a la evaluación.</p>
+                    <a href="../asset/evalua.php" class="btn">Continuar</a> <br><br><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card card-3">
+                <div class="card-content">
+                    <h1>Bebidas</h1>
+                    <p>Después de leer el contenido dale click al botón de continuar para ir a la evaluación.</p>
+                    <a href="../asset/bebidas.html" class="btn">Continuar</a> <br><br><br>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="../js/comp.js"></script>
+</body>
+</html>
